@@ -10,10 +10,10 @@
     <div class="card">
         <h1>Password Checker</h1>
 
-        <form method="POST">
-            <input type="text" name="password" placeholder="Enter password">
-            <button type="submit">Check</button>
-        </form>
+        <form method="POST" action="/password-checker">
+    <input type="text" name="password" placeholder="Enter password">
+    <button type="submit">Check</button>
+</form>
 
         {% if result %}
             <div class="result {{ result }}">
