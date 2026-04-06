@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #020617, #0f172a);
+    color: white;
+}
+
+/* CENTER */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CARD */
+.card {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 350px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+}
+
+/* TITLE */
+h1 {
+    margin-bottom: 20px;
+    color: #67e8f9;
+}
+
+/* INPUT */
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #22d3ee;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #67e8f9;
+}
+
+/* RESULT BOX */
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+/* COLORS */
+.result.Strong {
+    background: #064e3b;
+    color: #4ade80;
+}
+
+.result.Medium {
+    background: #78350f;
+    color: #facc15;
+}
+
+.result.Weak {
+    background: #7f1d1d;
+    color: #f87171;
+}
+
+/* MISSING */
+.missing {
+    margin-top: 10px;
+}
+
+.missing span {
+    display: block;
+    font-size: 14px;
+    color: #e2e8f0;
+}
